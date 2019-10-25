@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\workspace\\dotNet\\EFcore\\efproj\\efproj.csproj": {}
+    "d:\\workspace\\dotNet\\EFcore\\efproj\\efproj.csproj": {}
   },
   "projects": {
-    "D:\\workspace\\dotNet\\EFcore\\efproj\\efproj.csproj": {
+    "d:\\workspace\\dotNet\\EFcore\\efproj\\efproj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\workspace\\dotNet\\EFcore\\efproj\\efproj.csproj",
+        "projectUniqueName": "d:\\workspace\\dotNet\\EFcore\\efproj\\efproj.csproj",
         "projectName": "efproj",
-        "projectPath": "D:\\workspace\\dotNet\\EFcore\\efproj\\efproj.csproj",
+        "projectPath": "d:\\workspace\\dotNet\\EFcore\\efproj\\efproj.csproj",
         "packagesPath": "C:\\Users\\fanzh\\.nuget\\packages\\",
-        "outputPath": "D:\\workspace\\dotNet\\EFcore\\efproj\\obj\\",
+        "outputPath": "d:\\workspace\\dotNet\\EFcore\\efproj\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -20,27 +20,32 @@ namespace efproj
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+        //服务注入配置
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        //程序配置
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            //判断当前环境是 开发环境 还是 生产环境
             if (env.IsDevelopment())
             {
+                //开发环境。启用错误显示
                 app.UseDeveloperExceptionPage();
             }
             else
             {
+                //生产环境。错误时转到对应错误页
                 app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+                //允许浏览器信任SSL证书 并 缓存，默认时间为30天
                 app.UseHsts();
             }
 
+            //设置SSL端口的前提下，强制使用HTTPS
             app.UseHttpsRedirection();
+
             app.UseStaticFiles();
 
             app.UseRouting();
@@ -51,6 +56,11 @@ namespace efproj
             {
                 endpoints.MapRazorPages();
             });
+        }
+
+        private void SetDefaultPage(string PageName){
+
+            return;
         }
     }
 }
