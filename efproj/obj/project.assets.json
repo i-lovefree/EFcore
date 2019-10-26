@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\fanzh\\.nuget\\packages\\": {},
+    "C:\\Users\\SSS\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace\\dotNet\\EFcore\\efproj\\efproj.csproj",
+      "projectUniqueName": "d:\\DATA\\WorkSpace\\vscore\\EFcore\\efproj\\efproj.csproj",
       "projectName": "efproj",
-      "projectPath": "D:\\workspace\\dotNet\\EFcore\\efproj\\efproj.csproj",
-      "packagesPath": "C:\\Users\\fanzh\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace\\dotNet\\EFcore\\efproj\\obj\\",
+      "projectPath": "d:\\DATA\\WorkSpace\\vscore\\EFcore\\efproj\\efproj.csproj",
+      "packagesPath": "C:\\Users\\SSS\\.nuget\\packages\\",
+      "outputPath": "d:\\DATA\\WorkSpace\\vscore\\EFcore\\efproj\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\fanzh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SSS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -32,7 +32,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://nuget.cnblogs.com/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {

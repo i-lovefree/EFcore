@@ -46,6 +46,10 @@ namespace efproj
             //设置SSL端口的前提下，强制使用HTTPS
             app.UseHttpsRedirection();
 
+            //设置默认页
+            app.UseDefaultFiles(SetDefaultPage("index.html"));
+
+            //启用默认文件夹(wwwroot)内的静态文件访问权限
             app.UseStaticFiles();
 
             app.UseRouting();
@@ -58,9 +62,12 @@ namespace efproj
             });
         }
 
-        private void SetDefaultPage(string PageName){
-
-            return;
+        private DefaultFilesOptions SetDefaultPage(string PageName)
+        {
+            DefaultFilesOptions defaultFilesOptions=new DefaultFilesOptions();
+            defaultFilesOptions.DefaultFileNames.Clear();
+            defaultFilesOptions.DefaultFileNames.Add(PageName);
+            return defaultFilesOptions;
         }
     }
 }
